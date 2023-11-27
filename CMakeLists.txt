@@ -12,6 +12,7 @@ file(MAKE_DIRECTORY ${CATKIN_DEVEL_PREFIX}/include)
 SET(CONTRIB_NAME "opencv3_contrib")
 ExternalProject_Add(${CONTRIB_NAME}
   URL https://github.com/Ws1234567879789/opencv_contrib/archive/refs/heads/3.4.2.zip
+ URL_MD5 cfdad361bc9132edba747a01d5b4618e
   SOURCE_DIR ${CONTRIB_NAME}_src
   UPDATE_COMMAND ""
   CONFIGURE_COMMAND ""
